@@ -32,14 +32,14 @@
       <div class="card">
         <h2>Goals</h2>
         <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
-        <ul class="skills">
+      <ul class="skills">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
-          <li>Ruby</li>
-          <li>Rails</li>
+          <li>Network Security</li>
+          <li>Gaming</li>
         </ul>
-        <p>I’d like to work for a web design firm helping clients create an impressive online presence.</p>
+        <p>I would also like to learn more about cyber security and game-building.</p>
       </div> 
 
     </main>
