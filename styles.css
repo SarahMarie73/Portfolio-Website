@@ -129,6 +129,10 @@ ul.skills {
   transition: all .5s;
   }
 
+a:hover {
+  color: #33CCFF;
+}
+
 footer {
   width: 100%;
   min-height: 30px;
