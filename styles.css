@@ -52,7 +52,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #ff99ff;
 }
 
 header {
@@ -129,10 +129,15 @@ ul.skills {
   transition: all .5s;
   }
 
+a:hover {
+  color: #33CCFF;
+}
+
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 20px 0 40px;
+  margin: auto;
 }
 
 footer .copyright {
@@ -208,8 +213,8 @@ a.social:hover {
 
   footer {
     font-size: 1.3em;
-    max-width: 1200px;
-    margin: 40px auto;
+    max-width: 100%;
+    margin: 0 auto;
   }
 
 }
