@@ -147,7 +147,7 @@ footer .copyright {
 
 footer ul {
   list-style-type: none;
-  margin: 0;
+  margin: 10px auto;
   padding: 0;
 }
 
