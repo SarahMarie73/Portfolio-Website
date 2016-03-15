@@ -50,6 +50,7 @@ a:hover {
 }
 .nav a {
   transition: all .5s;
+  margin-right: 5px;
 }
 .nav a:hover {
   color: #ff99ff;
