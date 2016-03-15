@@ -221,3 +221,12 @@ a.social:hover {
 
 }
 
+@media screen and (max-width: 640px) {
+  
+  .nav a {
+  transition: all .5s;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+  
+}
