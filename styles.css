@@ -127,6 +127,20 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
+.card2 {
+  margin: 30px;
+  padding: 5px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card2:hover {
+  border-color: #ff99ff;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -145,14 +159,6 @@ ul.skills {
   background: #33CCFF;
 }
 
-.dog-image {
-  margin-top: 30px;
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  border: 3px solid #FF0066;
-  transition: all .5s;
-  }
 
 a:hover {
   color: #33CCFF;
@@ -164,17 +170,7 @@ a:hover {
 
 /**PORTFOLIO**/
 
-#gallery {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
-  #gallery li {
-    float: left;
-    width: 45%;
-    margin: 2.5%;
-  }
 
 
 /**FOOTER**/
@@ -275,10 +271,6 @@ a.social:hover {
   
 }
 
-@media screen and (min-width: 640px) {
-  
-
-}
 
 @media screen and (max-width: 640px) {
   
