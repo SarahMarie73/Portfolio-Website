@@ -1,6 +1,7 @@
 /* Global Layout Set-up */
 * { 
   box-sizing: border-box;
+  margin: 0;
 }
   
 body {
@@ -10,7 +11,29 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #222;
   background: #f7f5f0;
+  height: 100%;
 }
+
+html {
+  height: 100%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+img {
+  max-width: 100%;
+}
+
+
 /* Link Styles */
 
 a {
@@ -50,6 +73,8 @@ a:hover {
 }
 .nav a {
   transition: all .5s;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 .nav a:hover {
   color: #ff99ff;
@@ -102,6 +127,20 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
+.card2 {
+  margin: 30px;
+  padding: 5px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card2:hover {
+  border-color: #ff99ff;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -120,17 +159,28 @@ ul.skills {
   background: #33CCFF;
 }
 
-.dog-image {
-  margin-top: 30px;
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  border: 3px solid #FF0066;
-  transition: all .5s;
-  }
 
 a:hover {
   color: #33CCFF;
+}
+
+.row {
+  display: inline-block;
+}
+
+/**PORTFOLIO**/
+
+
+
+
+/**FOOTER**/
+
+
+.site-footer, .page-wrap:after {
+  height: 142px; 
+}
+.site-footer {
+  background: none;
 }
 
 footer {
@@ -147,13 +197,15 @@ footer .copyright {
 
 footer ul {
   list-style-type: none;
-  margin: 0;
+  margin: 10px auto;
   padding: 0;
 }
 
 footer ul li {
   display: inline-block;
 }
+
+/**END FOOTER**/
 
 a.social {
   display: inline-block;
@@ -216,6 +268,16 @@ a.social:hover {
     max-width: 100%;
     margin: 0 auto;
   }
-
+  
 }
 
+
+@media screen and (max-width: 640px) {
+  
+  .nav a {
+  transition: all .5s;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+  
+}
